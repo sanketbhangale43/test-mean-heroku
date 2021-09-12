@@ -26,5 +26,5 @@ app.get('**', function (req, res) {
     res.sendFile(path.join(__dirname + '/dist/index.html'));
 });
 app.listen(PORT, () => {
-    console.log(`Server is running on Port ${POST}`);
-})
+    console.log(`Server is running on Port ${PORT}`);
+});
